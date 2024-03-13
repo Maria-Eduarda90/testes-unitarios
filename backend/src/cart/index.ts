@@ -1,6 +1,6 @@
-import Product from "../product";
+import { Product } from "../product";
 
-export default class Cart {
+export class Cart {
     private readonly _items: Product[] = [];
 
     addItem(item: Product): void {
