@@ -1,6 +1,7 @@
 import { Product } from "../product";
+import { ICard } from "./index.interface";
 
-export class Cart {
+export class Cart implements ICard {
     private readonly _items: Product[] = [];
 
     addItem(item: Product): void {
