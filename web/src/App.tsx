@@ -7,7 +7,7 @@ function App() {
       <h1>Hello world!</h1>
       <p>{message}</p>
 
-      <button onClick={() => setMessage("New message")}>message</button>
+      <button onClick={() => setMessage("New message")}>change message</button>
     </div>
   );
 }
